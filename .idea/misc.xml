@@ -5,9 +5,10 @@
       <map>
         <entry key="../../../../layout/custom_preview.xml" value="0.3605128205128205" />
         <entry key="app/src/main/res/drawable/chip_background.xml" value="0.2155" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3375" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2958904109589041" />
         <entry key="app/src/main/res/layout/input_view.xml" value="0.3375" />
         <entry key="app/src/main/res/layout/keyboard.xml" value="0.2958904109589041" />
+        <entry key="app/src/main/res/layout/preview.xml" value="0.3" />
       </map>
     </option>
   </component>
