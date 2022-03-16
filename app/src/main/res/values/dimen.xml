@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_normal">24dp</dimen>
+    <dimen name="text_size_symbol">14dp</dimen>
+
+    <dimen name="keyboard_header_height">56dp</dimen>
+    <dimen name="keyboard_row_height">64dp</dimen>
+</resources>

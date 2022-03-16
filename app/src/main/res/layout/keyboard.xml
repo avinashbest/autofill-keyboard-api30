@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/KeyboardArea">
+
+    <LinearLayout
+        android:id="@+id/suggestion_strip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/pinned_suggestions_start"
+            style="@style/PinnedSuggestionArea"
+            android:orientation="horizontal" />
+
+        <com.android.autofillkeyboard.InlineContentClipView
+            android:id="@+id/scrollable_suggestions_clip"
+            android:visibility="gone"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/scrollable_suggestions"
+                    style="@style/KeyboardRow.Header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </HorizontalScrollView>
+
+        </com.android.autofillkeyboard.InlineContentClipView>
+
+        <LinearLayout
+            android:id="@+id/pinned_suggestions_end"
+            style="@style/PinnedSuggestionArea"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_0_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_2"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_3"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_4"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_5"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_6"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_7"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_8"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_0_9"
+            style="@style/SoftKey" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_1_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_2"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_3"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_4"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_5"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_6"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_7"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_1_8"
+            style="@style/SoftKey" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_shift"
+            style="@style/SoftKey.Function" />
+
+        <TextView
+            android:id="@+id/key_pos_2_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_2"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_3"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_4"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_5"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_2_6"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_del"
+            style="@style/SoftKey.Function" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/KeyboardRow">
+
+        <TextView
+            android:id="@+id/key_pos_symbol"
+            style="@style/SoftKey.Function.Text" />
+
+        <TextView
+            android:id="@+id/key_pos_bottom_0"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_space"
+            style="@style/SoftKey.Space" />
+
+        <TextView
+            android:id="@+id/key_pos_bottom_1"
+            style="@style/SoftKey" />
+
+        <TextView
+            android:id="@+id/key_pos_enter"
+            style="@style/SoftKey.Function" />
+    </LinearLayout>
+
+</LinearLayout>
