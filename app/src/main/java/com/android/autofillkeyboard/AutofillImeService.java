@@ -257,7 +257,7 @@ public class AutofillImeService extends InputMethodService {
                 new Size(740, getHeight())).setStyle(stylesBundle).build());
 
         return new InlineSuggestionsRequest.Builder(presentationSpecs)
-                .setMaxSuggestionCount(6)
+                .setMaxSuggestionCount(InlineSuggestionsRequest.SUGGESTION_COUNT_UNLIMITED)
                 .build();
     }
 
