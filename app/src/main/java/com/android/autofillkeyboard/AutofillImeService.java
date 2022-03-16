@@ -216,7 +216,7 @@ public class AutofillImeService extends InputMethodService {
 
     @Override
     public InlineSuggestionsRequest onCreateInlineSuggestionsRequest(Bundle uiExtras) {
-        mScrollableSuggestionsClip.setVisibility(View.VISIBLE);
+        mSuggestionStrip.setVisibility(View.VISIBLE);
         Log.d(TAG, "onCreateInlineSuggestionsRequest() called");
         StylesBuilder stylesBuilder = UiVersions.newStylesBuilder();
         @SuppressLint("RestrictedApi") Style style = InlineSuggestionUi.newStyleBuilder()
