@@ -37,7 +37,7 @@ final class Keyboard {
         } else if ("SYM".equals(data)) {
             return "?123";
         } else if ("SPA".equals(data)) {
-            return "[            ]";
+            return "Space";
         } else if ("ENT".equals(data)) {
             return "↩";
         } else {
