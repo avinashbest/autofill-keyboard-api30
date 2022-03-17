@@ -29,11 +29,4 @@ final class Decoder {
         }
     }
 
-    boolean isEmpty() {
-        if (mInputConnection.getTextBeforeCursor(1, 0).length() == 0
-                && mInputConnection.getTextAfterCursor(1, 0).length() == 0) {
-            return true;
-        }
-        return false;
-    }
 }
