@@ -102,11 +102,13 @@ public class AutofillImeService extends InputMethodService {
         mInputView = (InputView) LayoutInflater.from(this).inflate(R.layout.input_view, null);
         mKeyboard = Keyboard.qwerty(this);
         mInputView.addView(mKeyboard.inflateKeyboardView(LayoutInflater.from(this), mInputView));
+        // Inline Suggestion Views
         mSuggestionStrip = mInputView.findViewById(R.id.suggestion_strip);
         mPinnedSuggestionsStart = mInputView.findViewById(R.id.pinned_suggestions_start);
         mPinnedSuggestionsEnd = mInputView.findViewById(R.id.pinned_suggestions_end);
         mScrollableSuggestionsClip = mInputView.findViewById(R.id.scrollable_suggestions_clip);
         mScrollableSuggestions = mInputView.findViewById(R.id.scrollable_suggestions);
+        // return input keyboard view
         return mInputView;
     }
 
@@ -289,7 +291,6 @@ public class AutofillImeService extends InputMethodService {
             return;
         }
 
-        // TODO: refactor me
         mScrollableSuggestionsClip.setBackgroundColor(
                 getColor(R.color.suggestion_strip_background));
         mSuggestionStrip.setVisibility(View.VISIBLE);
